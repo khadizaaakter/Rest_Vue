@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": "bb3e",
+      "name": "yeasin",
+      "email": "yeasin@gmail.com",
+      "password": "yeasin123"
+    },
+    {
+      "id": "7efd",
+      "name": "anamika",
+      "email": "anamika@gmail.com",
+      "password": "anamika123"
+    },
+    {
+      "id": "6934",
+      "name": "rabbi",
+      "email": "rabbi@gmail.com",
+      "password": "rabbi123"
+    },
+    {
+      "id": "2770",
+      "name": "raju",
+      "email": "raju@gmail.com",
+      "password": "raju123"
+    },
+    {
+      "id": "62d7",
+      "name": "lal",
+      "email": "lal@gmail.com",
+      "password": "lal123"
+    },
+    {
+      "id": "de0e",
+      "name": "samia",
+      "email": "samia@gmail.com",
+      "password": "samia123"
+    },
+    {
+      "id": "90e1",
+      "name": "samia",
+      "email": "samia@gmail.com",
+      "password": "samia123"
+    },
+    {
+      "id": "b467",
+      "name": "raat",
+      "email": "raat@gmail.com",
+      "password": "raat123"
+    },
+    {
+      "id": "c94c",
+      "name": "din",
+      "email": "din@gmail.com",
+      "password": "din123"
+    },
+    {
+      "id": "3ea2",
+      "name": "kariva",
+      "email": "kariva@gmail.com",
+      "password": "kariva123"
+    },
+    {
+      "id": "7869",
+      "name": "rust",
+      "email": "rust@gmail.com",
+      "password": "rust123"
+    },
+    {
+      "id": "74fc",
+      "name": "rupa",
+      "email": "rupa@gmail.com",
+      "password": "rupa123"
+    }
+  ]
+}
