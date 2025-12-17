@@ -10,7 +10,14 @@
           <div class="form-group">
             <label for="email" style="color: white">Email Address</label>
             <div class="input-wrapper">
-              <input type="email" id="email" name="email" required autocomplete="email" />
+              <input
+                v-model="formData.email"
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+              />
 
               <span class="focus-border"></span>
             </div>
@@ -21,6 +28,7 @@
             <label for="password" style="color: white">Password</label>
             <div class="input-wrapper password-wrapper">
               <input
+                v-model="formData.password"
                 type="password"
                 id="password"
                 name="password"
@@ -47,7 +55,7 @@
             <a href="#" class="forgot-password">Forgot password?</a>
           </div>
 
-          <button type="button" class="login-btn btn">
+          <button @click="loginForm" type="button" class="login-btn btn">
             <span class="btn-text">Sign In</span>
             <span class="btn-loader"></span>
           </button>
@@ -55,10 +63,6 @@
 
         <div class="divider">
           <span>or continue with</span>
-        </div>
-        <div class="account-login">
-          Already have an account?
-          <router-link to="/" class="forgot-password">Sign Up</router-link>
         </div>
 
         <div class="social-login">
@@ -75,9 +79,26 @@
   </div>
 </template>
 <script setup>
+import axios from "axios";
 import { onMounted } from "vue";
 import { useRouter } from "vue-router";
+import { ref } from "vue";
 const router = useRouter();
+
+const formData = ref({
+  email: "",
+  password: "",
+});
+
+const loginForm = async () => {
+  const res = await axios.get(
+    `http://localhost:3000/user?email=${formData.value.email}&password=${formData.value.password}`
+  );
+  if (res.data.length > 0) {
+    localStorage.setItem("userData", JSON.stringify(res.data[0]));
+    router.push("/home");
+  }
+};
 
 onMounted(() => {
   const user = localStorage.getItem("userData");

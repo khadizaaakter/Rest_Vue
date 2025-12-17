@@ -9,13 +9,20 @@
         <a class="active" href="#">Home</a>
         <a href="#">Add Restaurant</a>
         <a href="#">Update Restaurant</a>
-        <a href="#">Logout</a>
+        <a @click="logout" href="#">Logout</a>
       </nav>
     </div>
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import router from "@/router";
+
+const logout = () => {
+  localStorage.clear();
+  router.push("/login");
+};
+</script>
 
 <style scoped>
 /* ===== Header Base ===== */
