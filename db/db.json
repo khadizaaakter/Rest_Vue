@@ -72,5 +72,19 @@
       "email": "rupa@gmail.com",
       "password": "rupa123"
     }
+  ],
+  "resaurant": [
+    {
+      "id": "1",
+      "name": "The Food Place",
+      "contact": "0123123123",
+      "address": "Khilgaon"
+    },
+    {
+      "id": "2",
+      "name": "The Foodie Hub",
+      "contact": "012322222",
+      "address": "Rangpur"
+    }
   ]
 }
