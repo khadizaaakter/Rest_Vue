@@ -6,9 +6,9 @@
 
       <!-- Navigation -->
       <nav class="nav">
-        <a class="active" href="#">Home</a>
-        <a href="#">Add Restaurant</a>
-        <a href="#">Update Restaurant</a>
+        <router-link to="/home">Home</router-link>
+        <router-link to="/add-restaurant">Add Restaurant</router-link>
+        <router-link to="/update-restaurant">Update Restaurant</router-link>
         <a @click="logout" href="#">Logout</a>
       </nav>
     </div>

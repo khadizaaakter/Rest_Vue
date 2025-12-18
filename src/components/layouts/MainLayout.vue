@@ -13,7 +13,7 @@
 <script setup>
 import HeaderMain from "./header-main.vue";
 import FooterMain from "./footer-main.vue";
-import MainPage from "./MainPage.vue";
+// import MainPage from "./MainPage.vue";
 </script>
 
 <style scoped>

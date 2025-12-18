@@ -85,6 +85,72 @@
       "name": "The Foodie Hub",
       "contact": "012322222",
       "address": "Rangpur"
+    },
+    {
+      "id": "85dc",
+      "name": "Food Court",
+      "contact": "01235555123",
+      "address": "Khilgaon"
+    },
+    {
+      "id": "e388",
+      "name": "Dhaka Food",
+      "address": "Rampura",
+      "contact": 123654789
+    },
+    {
+      "id": "7e16",
+      "name": "pant food",
+      "address": "Rampura",
+      "contact": 12345745545
+    },
+    {
+      "id": "3d78",
+      "name": "Rajistani Food",
+      "address": "Rampura",
+      "contact": 14474444443
+    },
+    {
+      "id": "8446",
+      "name": "Khandani Food",
+      "address": "Gulshan, Dhaka",
+      "contact": "01454748854"
+    },
+    {
+      "id": "8ef3",
+      "name": "Pizza World",
+      "address": "Rampura",
+      "contact": "01478852235"
+    },
+    {
+      "id": "7f2f",
+      "name": "Loader",
+      "address": "Rampura",
+      "contact": "01221236547"
+    },
+    {
+      "id": "7a0c",
+      "name": "Smiley",
+      "address": "Rampura",
+      "contact": "01212121212"
+    },
+    {
+      "id": "4881",
+      "name": "Hello Foodie",
+      "address": "Rampura",
+      "contact": "01478525874"
+    },
+    {
+      "id": "0fea",
+      "name": "abc",
+      "address": "Rampura",
+      "contact": "01487545454"
+    },
+    {
+      "id": "67c9",
+      "name": "Hunter",
+      "address": "Rampura",
+      "contact": "01212131233"
     }
   ]
 }
